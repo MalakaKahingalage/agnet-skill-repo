@@ -1,6 +1,6 @@
 ---
 name: tech-doc-writer
-description: "Write detailed enterprise technical documents — As-Built, HLD, Reference Docs, and Security Guides — for network and OT platforms. Produces structured, professional documents with YAML frontmatter, document control, version history, and correct classification. WHEN: write an as-built, create an HLD, document a platform, write a security guide, create a reference document, write technical documentation, document a network design, as-built for a server."
+description: "Write detailed enterprise technical documents — As-Built, HLD, LLD, Reference Docs, and Security Guides — for network and OT platforms. Produces structured, professional documents with YAML frontmatter, document control, version history, and correct classification. WHEN: write an as-built, create an HLD, create an LLD, write a low-level design, document a platform, write a security guide, create a reference document, write technical documentation, document a network design, as-built for a server."
 ---
 
 # Technical Document Writer
@@ -18,6 +18,7 @@ I follow Rio Tinto documentation standards based on real production documents.
 |---|---|---|
 | **As-Built** / as-built / AsBuilt / as built | `refs/asbuilt-guide.md` | See guide for source doc path |
 | **HLD** / High-Level Design / network design | `refs/hld-guide.md` | See guide for source doc path |
+| **LLD** / Low-Level Design / detailed design / engineering spec / build spec | `refs/lld-guide.md` | See guide for source doc path |
 | **Security Guide** / security doc / credentials guide | `refs/security-guide.md` | See guide for source doc path |
 | **Reference Doc** / port reference / config reference / credential reference | `refs/reference-doc-guide.md` | See guide for source doc path |
 | **Troubleshooting Guide** / recovery guide / runbook / system down / disaster recovery / incident runbook | `refs/troubleshooting-guide.md` | See guide for source doc path |
@@ -81,4 +82,5 @@ After saving, confirm: filename, path, approximate line count.
 | `refs/hld-guide.md` | HLD sections, design decisions, stakeholders | ~120 lines |
 | `refs/security-guide.md` | Security posture, threat model, controls, audits | ~110 lines |
 | `refs/reference-doc-guide.md` | Port tables, config reference, credential reference | ~100 lines |
+| `refs/lld-guide.md` | LLD sections, IP design, protocol config, build sequence, test plan | ~180 lines |
 | `refs/troubleshooting-guide.md` | Diagnosis runbook, common issues, DR procedure, log reference | ~230 lines |

@@ -12,7 +12,7 @@ title: "{Platform} - {Document Type}"
 platform: "{Platform Name}"
 environment: "{Prod OT / Prod IT / Dev / Lab}"
 server: "{hostname.domain}"          # omit if not applicable
-document_type: "{As-Built / HLD / Security Guide / Reference}"
+document_type: "{As-Built / HLD / LLD / Security Guide / Reference}"
 version: "1.0"
 status: "{Draft / Review / Approved / Operational}"
 date: "{YYYY-MM-DD}"
