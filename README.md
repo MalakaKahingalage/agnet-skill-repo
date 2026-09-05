@@ -9,6 +9,7 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 
 | Skill | Description |
 |---|---|
+| [`agent-trust-hardening`](#agent-trust-hardening) | Audit and raise the trust line for autonomous AI agents, approval gates, rollbacks, and tool walls |
 | [`business-plan-pdf`](#business-plan-pdf) | Generate a professional, navy-branded business plan PDF from any Markdown file |
 | [`enterprise-agenticops-differentiation`](#enterprise-agenticops-differentiation) | Position AI, automation, and network ops experience as credible enterprise AgenticOps capability |
 | [`gopass-vault`](#gopass-vault) | Manage secrets, GPG keys, and API tokens in gopass secret vault |
@@ -30,6 +31,12 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 ---
 
 ## 📖 Skill Details
+
+### `agent-trust-hardening`
+Audit and raise the trust line for autonomous AI agents. Use when hardening agent execution, defining approval gates, restricting subagent tool scopes, enforcing artifact verification, establishing atomic rollbacks, and pruning startup context tax.  
+**Trigger:** *"harden agent trust", "make agent reliable", "approval gates", "audit agent skills"*
+
+---
 
 ### `business-plan-pdf`
 Converts a Markdown business plan into a clean, professional A4 PDF.  
@@ -152,6 +159,8 @@ Supports an optional HTTP proxy via the `RESEARCH_PROXY` environment variable.
 ```
 agnet-skill-repo/
 ├── README.md
+├── agent-trust-hardening/
+│   └── SKILL.md
 ├── business-plan-pdf/
 │   ├── SKILL.md
 │   └── generate_pdf.py
