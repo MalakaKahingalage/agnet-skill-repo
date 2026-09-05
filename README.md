@@ -10,12 +10,15 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 | Skill | Description |
 |---|---|
 | [`business-plan-pdf`](#business-plan-pdf) | Generate a professional, navy-branded business plan PDF from any Markdown file |
+| [`herdr`](#herdr) | Master guide and procedure for using Herdr to orchestrate Linux servers, platforms, and processes |
+| [`human-authenticity-pass`](#human-authenticity-pass) | Run a final authenticity pass on job application documents to remove AI tells and strengthen human voice |
 | [`linkedin-writer`](#linkedin-writer) | Write LinkedIn articles and posts in Malaka's authentic practitioner voice |
 | [`manage-terminal`](#manage-terminal) | Control a tmux session (`NetOps_BAU`) — send commands and read pane output |
 | [`minimalist-business-plan`](#minimalist-business-plan) | Build a full research-backed business plan using the Minimalist Entrepreneur framework |
 | [`pdf`](#pdf) | Read, extract, search, and summarise content from PDF files |
 | [`rt-branded-pdf`](#rt-branded-pdf) | Generate a Rio Tinto corporate-branded PDF from any Markdown file |
 | [`tech-doc-writer`](#tech-doc-writer) | Write enterprise-grade technical documents — As-Built, HLD, Security Guides, and more |
+| [`wa-selection-criteria`](#wa-selection-criteria) | Guidelines, templates, and checklists for writing WA Government selection criteria responses |
 | [`webresearch`](#webresearch) | Research any topic online — fetches web pages, docs, APIs, and news |
 
 ---
@@ -26,6 +29,18 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 Converts a Markdown business plan into a clean, professional A4 PDF.  
 Features a navy-branded cover page, auto-generated table of contents, document control block, revision history, styled tables, code blocks, blockquote callouts, and status badges.  
 **Trigger:** *"convert business plan to PDF", "export strategy document", "create investor-ready document"*
+
+---
+
+### `herdr`
+Master guide and procedure for using Herdr (terminal workspace manager) to orchestrate local and remote Linux servers, platforms, processes, background agents, and multi-pane deployments.  
+**Trigger:** *"use Herdr", "manage remote servers", "setup Herdr workspace", "tail logs across servers"*
+
+---
+
+### `human-authenticity-pass`
+Runs a final authenticity pass on resumes, cover letters, and selection criteria to remove AI tells, strengthen evidence, and rewrite into a credible human voice without inventing facts.  
+**Trigger:** *"human authenticity pass", "remove AI voice", "polish cover letter", "audit resume for AI tells"*
 
 ---
 
@@ -77,6 +92,12 @@ All documents include YAML frontmatter, document control, version history, and c
 
 ---
 
+### `wa-selection-criteria`
+Reusable guidelines, templates, checklists, and examples for writing highly competitive Western Australian (WA) Government selection criteria responses. Aligned with the WA Public Sector Commission (PSC) employment standard.  
+**Trigger:** *"write selection criteria", "WA government application", "STAR criteria response", "JDF response"*
+
+---
+
 ### `webresearch`
 Researches any topic on the internet — fetches web pages, documentation, articles, APIs, and technical references.  
 Supports an optional HTTP proxy via the `RESEARCH_PROXY` environment variable.  
@@ -92,6 +113,13 @@ agnet-skill-repo/
 ├── business-plan-pdf/
 │   ├── SKILL.md
 │   └── generate_pdf.py
+├── herdr/
+│   ├── SKILL.md
+│   └── references/
+│       ├── agent-coordination.md
+│       └── server-management-cheatsheet.md
+├── human-authenticity-pass/
+│   └── SKILL.md
 ├── linkedin-writer/
 │   ├── SKILL.md
 │   └── references/
@@ -118,6 +146,8 @@ agnet-skill-repo/
 │       ├── security-guide.md
 │       ├── troubleshooting-guide.md
 │       └── writing-standards.md
+├── wa-selection-criteria/
+│   └── SKILL.md
 └── webresearch/
     ├── SKILL.md
     └── scripts/
@@ -136,4 +166,5 @@ To add a new skill: create a new directory, add a `SKILL.md` with a `name` and `
 
 ---
 
-*Last updated: April 2026*
+*Last updated: September 2026*
+
