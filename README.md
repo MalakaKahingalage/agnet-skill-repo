@@ -11,7 +11,9 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 |---|---|
 | [`business-plan-pdf`](#business-plan-pdf) | Generate a professional, navy-branded business plan PDF from any Markdown file |
 | [`enterprise-agenticops-differentiation`](#enterprise-agenticops-differentiation) | Position AI, automation, and network ops experience as credible enterprise AgenticOps capability |
+| [`gopass-vault`](#gopass-vault) | Manage secrets, GPG keys, and API tokens in gopass secret vault |
 | [`herdr`](#herdr) | Master guide and procedure for using Herdr to orchestrate Linux servers, platforms, and processes |
+| [`home-assistant-operations`](#home-assistant-operations) | Connect to Home Assistant, inspect entities, run health audits, and operate smart home devices |
 | [`human-authenticity-pass`](#human-authenticity-pass) | Run a final authenticity pass on job application documents to remove AI tells and strengthen human voice |
 | [`job-application-content-strategy`](#job-application-content-strategy) | Analyze job ads and build tailored content strategy for resumes, CVs, and cover letters |
 | [`linkedin-writer`](#linkedin-writer) | Write LinkedIn articles and posts in Malaka's authentic practitioner voice |
@@ -42,9 +44,21 @@ Position AI, automation, and network operations experience as credible enterpris
 
 ---
 
+### `gopass-vault`
+Manage secrets in Malaka's gopass vault — store, retrieve, add new keys, and sync to GitHub. Source of truth for all API keys, tokens, and credentials.  
+**Trigger:** *"gopass vault", "manage secrets", "retrieve API key", "store token"*
+
+---
+
 ### `herdr`
 Master guide and procedure for using Herdr (terminal workspace manager) to orchestrate local and remote Linux servers, platforms, processes, background agents, and multi-pane deployments.  
 **Trigger:** *"use Herdr", "manage remote servers", "setup Herdr workspace", "tail logs across servers"*
+
+---
+
+### `home-assistant-operations`
+Connect to Home Assistant, verify reachability, inspect entities, assess system health, and operate devices through the HA API.  
+**Trigger:** *"Home Assistant", "HA health audit", "control smart home", "home assistant entities"*
 
 ---
 
@@ -145,11 +159,20 @@ agnet-skill-repo/
 │   ├── SKILL.md
 │   └── references/
 │       └── positioning-guide.md
+├── gopass-vault/
+│   ├── SKILL.md
+│   └── references/
+│       └── google-oauth-token.md
 ├── herdr/
 │   ├── SKILL.md
 │   └── references/
 │       ├── agent-coordination.md
 │       └── server-management-cheatsheet.md
+├── home-assistant-operations/
+│   ├── SKILL.md
+│   └── references/
+│       ├── home-assistant-api-probes.md
+│       └── homeassistant-token-handling.md
 ├── human-authenticity-pass/
 │   ├── SKILL.md
 │   └── references/
@@ -222,6 +245,3 @@ To add a new skill: create a new directory, add a `SKILL.md` with a `name` and `
 ---
 
 *Last updated: September 2026*
-
-
-
