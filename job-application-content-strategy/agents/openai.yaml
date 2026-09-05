@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Application Strategy"
+  short_description: "Tailor resumes and cover letters strategically"
+  default_prompt: "Use $job-application-content-strategy to analyze a role, identify the strongest evidence, and tailor my resume and cover letter for that application."

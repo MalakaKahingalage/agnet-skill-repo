@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume PDF Packager"
+  short_description: "Build polished resumes and PDF exports"
+  default_prompt: "Use $resume-pdf-packager to draft a tailored resume and cover letter, then export them in the standard print-ready PDF format."

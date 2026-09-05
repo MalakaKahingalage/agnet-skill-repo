@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Post-Build Validator"
+  short_description: "Stress-test a finished resume before sending"
+  default_prompt: "Use $resume-postbuild-validator to audit my finished resume, identify why it may be getting skipped, and rewrite weak areas before I apply."

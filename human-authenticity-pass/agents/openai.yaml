@@ -1,0 +1,4 @@
+interface:
+  display_name: "Human Authenticity Pass"
+  short_description: "Make AI-assisted applications sound human"
+  default_prompt: "Use $human-authenticity-pass to audit and rewrite my resume, cover letter, or selection criteria so it sounds specific, credible, and human without inventing facts."

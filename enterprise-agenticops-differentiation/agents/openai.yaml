@@ -1,0 +1,4 @@
+interface:
+  display_name: "Enterprise AgenticOps"
+  short_description: "Position AI and ops work as AgenticOps"
+  default_prompt: "Use $enterprise-agenticops-differentiation to turn my AI, network operations, and automation experience into a stronger enterprise AgenticOps positioning story for resumes, LinkedIn, interviews, and networking."

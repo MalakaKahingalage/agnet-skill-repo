@@ -10,12 +10,16 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 | Skill | Description |
 |---|---|
 | [`business-plan-pdf`](#business-plan-pdf) | Generate a professional, navy-branded business plan PDF from any Markdown file |
+| [`enterprise-agenticops-differentiation`](#enterprise-agenticops-differentiation) | Position AI, automation, and network ops experience as credible enterprise AgenticOps capability |
 | [`herdr`](#herdr) | Master guide and procedure for using Herdr to orchestrate Linux servers, platforms, and processes |
 | [`human-authenticity-pass`](#human-authenticity-pass) | Run a final authenticity pass on job application documents to remove AI tells and strengthen human voice |
+| [`job-application-content-strategy`](#job-application-content-strategy) | Analyze job ads and build tailored content strategy for resumes, CVs, and cover letters |
 | [`linkedin-writer`](#linkedin-writer) | Write LinkedIn articles and posts in Malaka's authentic practitioner voice |
 | [`manage-terminal`](#manage-terminal) | Control a tmux session (`NetOps_BAU`) — send commands and read pane output |
 | [`minimalist-business-plan`](#minimalist-business-plan) | Build a full research-backed business plan using the Minimalist Entrepreneur framework |
 | [`pdf`](#pdf) | Read, extract, search, and summarise content from PDF files |
+| [`resume-pdf-packager`](#resume-pdf-packager) | Build and export resumes and cover letters as print-ready single-column PDFs |
+| [`resume-postbuild-validator`](#resume-postbuild-validator) | Post-build resume validation, ATS review, red-flag detection, and diagnosis |
 | [`rt-branded-pdf`](#rt-branded-pdf) | Generate a Rio Tinto corporate-branded PDF from any Markdown file |
 | [`tech-doc-writer`](#tech-doc-writer) | Write enterprise-grade technical documents — As-Built, HLD, Security Guides, and more |
 | [`wa-selection-criteria`](#wa-selection-criteria) | Guidelines, templates, and checklists for writing WA Government selection criteria responses |
@@ -32,6 +36,12 @@ Features a navy-branded cover page, auto-generated table of contents, document c
 
 ---
 
+### `enterprise-agenticops-differentiation`
+Position AI, automation, and network operations experience as credible enterprise AgenticOps capability. Use for LinkedIn messaging, CV positioning, interview framing, and career narrative showing production AI/ops adoption.  
+**Trigger:** *"agenticops positioning", "frame AI experience", "enterprise agenticops", "career narrative"*
+
+---
+
 ### `herdr`
 Master guide and procedure for using Herdr (terminal workspace manager) to orchestrate local and remote Linux servers, platforms, processes, background agents, and multi-pane deployments.  
 **Trigger:** *"use Herdr", "manage remote servers", "setup Herdr workspace", "tail logs across servers"*
@@ -41,6 +51,12 @@ Master guide and procedure for using Herdr (terminal workspace manager) to orche
 ### `human-authenticity-pass`
 Runs a final authenticity pass on resumes, cover letters, and selection criteria to remove AI tells, strengthen evidence, and rewrite into a credible human voice without inventing facts.  
 **Trigger:** *"human authenticity pass", "remove AI voice", "polish cover letter", "audit resume for AI tells"*
+
+---
+
+### `job-application-content-strategy`
+Analyze job ads and build stronger application content strategy for resumes, CVs, and cover letters. Focuses on evidence selection, role framing, and translating technical work into business-relevant value.  
+**Trigger:** *"job application strategy", "tailor resume for job", "cover letter strategy", "role analysis"*
 
 ---
 
@@ -74,6 +90,18 @@ Reads, extracts, and analyses content from PDF files.
 Supports full extraction, page-range targeting, keyword search, and summary mode.  
 Uses `pymupdf` for clean text extraction with noise removal.  
 **Trigger:** *"read a PDF", "extract text from PDF", "summarise PDF", "search PDF for content"*
+
+---
+
+### `resume-pdf-packager`
+Build or tailor resumes, CVs, and cover letters in the established dark-header single-column format, then export them as print-ready PDFs with stable page breaks.  
+**Trigger:** *"export resume PDF", "build resume pack", "print cover letter PDF"*
+
+---
+
+### `resume-postbuild-validator`
+Validate a finished or recently tailored resume after drafting, rewriting, or PDF packaging. Provides post-build resume validation, ATS review, red-flag detection, and diagnosis.  
+**Trigger:** *"validate resume", "ATS resume review", "resume audit", "resume feedback"*
 
 ---
 
@@ -113,13 +141,25 @@ agnet-skill-repo/
 ├── business-plan-pdf/
 │   ├── SKILL.md
 │   └── generate_pdf.py
+├── enterprise-agenticops-differentiation/
+│   ├── SKILL.md
+│   └── references/
+│       └── positioning-guide.md
 ├── herdr/
 │   ├── SKILL.md
 │   └── references/
 │       ├── agent-coordination.md
 │       └── server-management-cheatsheet.md
 ├── human-authenticity-pass/
-│   └── SKILL.md
+│   ├── SKILL.md
+│   └── references/
+│       └── research-notes.md
+├── job-application-content-strategy/
+│   ├── SKILL.md
+│   └── references/
+│       ├── cover-letter-strategy-checklist.md
+│       ├── resume-strategy-checklist.md
+│       └── role-analysis-patterns.md
 ├── linkedin-writer/
 │   ├── SKILL.md
 │   └── references/
@@ -133,6 +173,19 @@ agnet-skill-repo/
 │   ├── SKILL.md
 │   └── scripts/
 │       └── read.py
+├── resume-pdf-packager/
+│   ├── SKILL.md
+│   ├── assets/
+│   │   ├── cover_letter_print_template.html
+│   │   └── resume_print_template.html
+│   ├── references/
+│   │   └── formatting-guide.md
+│   └── scripts/
+│       └── render_pdf.py
+├── resume-postbuild-validator/
+│   ├── SKILL.md
+│   └── references/
+│       └── audit-modes.md
 ├── rt-branded-pdf/
 │   ├── SKILL.md
 │   ├── generate_pdf.py
@@ -147,7 +200,9 @@ agnet-skill-repo/
 │       ├── troubleshooting-guide.md
 │       └── writing-standards.md
 ├── wa-selection-criteria/
-│   └── SKILL.md
+│   ├── SKILL.md
+│   └── references/
+│       └── wa-guidance.md
 └── webresearch/
     ├── SKILL.md
     └── scripts/
@@ -167,4 +222,5 @@ To add a new skill: create a new directory, add a `SKILL.md` with a `name` and `
 ---
 
 *Last updated: September 2026*
+
 

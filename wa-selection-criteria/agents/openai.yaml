@@ -1,0 +1,4 @@
+interface:
+  display_name: "WA Selection Criteria"
+  short_description: "Tailor WA selection criteria responses"
+  default_prompt: "Use $wa-selection-criteria to draft or tighten WA Government selection criteria responses using concise, evidence-based examples aligned to each work-related requirement."

@@ -1,127 +1,147 @@
 ---
 name: human-authenticity-pass
-description: Run a final authenticity pass on resumes, cover letters, and selection criteria to remove AI tells, strengthen evidence, and rewrite into a credible human voice without inventing facts. Use when AI-assisted job application documents sound generic, overpolished, or not fully human.
+description: Run a final authenticity pass on resumes, cover letters, and selection criteria to remove AI tells, strengthen evidence, and rewrite into a credible human voice without inventing facts. Use when AI-assisted job application documents sound generic, overpolished, templated, or not fully human.
 ---
 
 # Human Authenticity Pass
 
-Use this skill as the **last validation and rewrite pass** for job-application documents that were drafted or assisted by AI.
+Use this skill as the last validation and rewrite pass for AI-assisted job application documents.
 
-## Use when
-- a resume sounds polished but generic
-- a cover letter feels templated or robotic
-- a selection criteria response states capabilities but not evidence
-- you want to improve human credibility, not “beat” detectors
+## Core Principle
 
-## Core principle
-Do **not** optimize for AI-detector evasion.
+Do not optimize for AI-detector evasion.
+
 Optimize for:
-1. **Authenticity** — sounds like a real professional speaking
-2. **Specificity** — uses real tools, metrics, constraints, and outcomes
-3. **Truthfulness** — every claim is defensible in an interview
+1. authenticity
+2. specificity
+3. truthfulness
 
 If facts are missing, ask for them. Never invent them.
 
-## Required inputs
-Preferably gather:
-- the target job ad / JDF / selection criteria
+Treat AI tells as signals, not proof. The fix is not to hide the signal; it is to repair the underlying weakness: vague evidence, inflated importance, unsupported claims, generic rhythm, or a voice the candidate could not defend in an interview.
+
+## Required Inputs
+
+Prefer to gather:
+- the target job ad, JDF, or selection criteria
 - the current draft
-- optional source material: resume master, brag sheet, LinkedIn, notes, achievements
+- optional source material such as a resume master, brag sheet, LinkedIn profile, or achievement notes
 
 ## Workflow
 
-### Phase 1 — Audit the draft
-Check for these AI tells:
-- buzzwords: leverage, foster, navigate, delve, testament, pivotal, dynamic, robust, seamless
-- essay transitions: furthermore, moreover, additionally, in conclusion
-- generic openings: “I am writing to express my interest...”
-- capability claims with no proof: “I have strong communication skills”
-- uniform bullets or sentence rhythm
-- team-only phrasing where individual evidence is needed
-- vague outcomes: successful, effective, improved, streamlined
+### Phase 1: Audit The Draft
 
-### Phase 2 — Extract missing evidence
-If the draft is weak, ask **2–5 targeted questions** only, such as:
-- What exactly did you do yourself?
-- What tool, system, method, or framework did you use?
-- What was the scale: budget, team size, time saved, %, $, volume, risk reduced?
-- What obstacle or conflict did you handle?
-- What result can be defended in an interview?
+Check for:
+- generic or templated openings
+- capability claims with no proof
+- AI vocabulary clusters and formulaic transitions
+- repetitive rhythm across bullets or paragraphs
+- canned contrast structures such as `not only X but also Y`, `not just X`, or `X rather than Y`
+- over-neat three-part lists, triads, and repeated `X, Y, and Z` phrasing
+- polished but empty significance language such as `pivotal`, `crucial`, `underscores`, `testament`, `broader landscape`, `enduring impact`, or `showcases`
+- needless avoidance of plain words such as `is`, `has`, `used`, `wrote`, or `moved`
+- mechanical formatting such as excessive bold, title-case mini-headings, inline-header lists, emoji, or decorative separators
+- vague outcomes such as `successful`, `effective`, `improved`, or `streamlined`
+- team-only phrasing where individual ownership is unclear
 
-### Phase 3 — Rewrite for human credibility
+Do not over-score isolated signs. A single em dash, a formal sentence, perfect grammar, or an occasional transition word is not enough to call writing inauthentic.
+
+### Phase 2: Extract Missing Evidence
+
+If the draft lacks proof, ask 2-5 targeted questions only.
+
+Prioritize questions such as:
+- What did you do yourself?
+- What tool, system, or method did you use?
+- What was the scale?
+- What obstacle did you handle?
+- What result can you defend in an interview?
+
+### Phase 3: Rewrite For Human Credibility
+
 Apply these rules:
-- preserve facts; never add new achievements
-- prefer first-person active voice: “I led”, “I built”, “I negotiated”
+- preserve facts
+- never add new achievements
+- prefer first-person active voice
 - replace abstract claims with concrete examples
 - vary sentence length and rhythm
-- remove dramatic or inflated wording
+- remove inflated or theatrical wording
 - use exact tools, systems, stakeholders, and business context
-- qualify team outcomes honestly: “In a team of 5, I led...”
+- qualify team outcomes honestly
+- use plain syntax when it is clearer: `I used`, `I was`, `it has`, `the team did`
+- keep strong or unusual wording only when it matches the candidate's likely voice and evidence
+- remove canned lists unless the structure helps the reader scan real evidence
 
-### Phase 4 — Final validation
-Run this checklist:
-- sounds natural when read aloud
-- no obvious AI buzzwords or formulaic transitions
-- each major claim has evidence
-- metrics are real and proportionate
-- tone matches the role and industry
-- language matches local spelling and context
-- content is interview-defensible
+### Phase 4: Final Validation
 
-## Document-specific rules
+Confirm the draft:
+- sounds natural aloud
+- avoids obvious AI cliches
+- supports each major claim with evidence
+- uses real and proportionate metrics
+- matches the role and industry tone
+- fits local spelling and context
+- is interview-defensible
+
+## Document Rules
 
 ### Resume
+
 Turn duties into impact bullets.
-Use:
-- **Action + scope + result**
-- or **Accomplished X, measured by Y, by doing Z**
 
-Good example:
-- Reduced incident triage time by 35% by redesigning the alert workflow and consolidating dashboards across 3 operations teams.
+Prefer:
+- `Action + scope + result`
+- `Accomplished X, measured by Y, by doing Z`
 
-### Cover letter
+### Cover Letter
+
 - delete generic hooks
-- open with role fit, business context, or a specific reason for applying
-- use 1–2 concrete examples, not broad self-description
-- keep the tone professional and natural, not theatrical
+- open with role fit, business context, or a concrete reason for applying
+- use 1-2 real examples, not broad self-description
+- keep the tone professional and natural
 
-### Selection criteria
-Use **SAO / STAR**, with most words on **Action**.
+### Selection Criteria
+
+Use SAO or STAR with most words on action.
+
 Target ratio:
-- Situation: 15–20%
-- Action: 60–70%
-- Outcome: 15–20%
+- situation: 15-20%
+- action: 60-70%
+- outcome: 15-20%
 
 Panels score proof, not intention.
 
-## Red flags
-Stop and question the draft if it contains:
+## Red Flags
+
+Pause and question the draft if it contains:
 - unsupported claims
-- suspiciously inflated impact
-- copied job-description wording with no example
-- “we” everywhere and no “I” ownership
+- inflated impact
+- copied job-description language with no example
+- `we` everywhere and no `I` ownership
 - outcomes with no scale, timeframe, or consequence
+- polished phrasing that makes ordinary work sound historically important
+- citations, links, metrics, employers, tools, or dates the candidate cannot explain
 
-## Output format
+## Output Format
+
 When applying this skill, produce:
-1. **Authenticity audit**
-   - AI tells found
-   - evidence gaps
-   - risk flags
-2. **Clarifying questions** if needed
-3. **Rewritten document**
-4. **Final validation checklist**
-5. **Optional AST score**
-   - Authenticity: /5
-   - Specificity: /5
-   - Truthfulness: /5
+1. authenticity audit
+2. clarifying questions if needed
+3. rewritten document
+4. final validation checklist
+5. optional AST score
 
-## Interview test
-If the candidate would feel awkward saying the sentence out loud in an interview, rewrite it.
+AST means:
+- authenticity
+- specificity
+- truthfulness
 
-## Safe goal
-The goal is not to disguise falsehood.
-The goal is to make truthful, AI-assisted drafting sound like the real person behind the work.
+## Interview Test
 
-## Reference
-See [references/research-notes.md](references/research-notes.md) for the research basis behind this skill.
+If the candidate would feel awkward saying a sentence out loud in an interview, rewrite it.
+
+Also ask: could the candidate explain why this claim, example, metric, or word choice is here? If not, replace it with something source-grounded or ask for missing context.
+
+## Resource
+
+Read `references/research-notes.md` for the research basis, detector caution, and stronger heuristics for human-sounding professional writing.
