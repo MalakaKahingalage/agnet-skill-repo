@@ -11,6 +11,7 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 |---|---|
 | [`agent-trust-hardening`](#agent-trust-hardening) | Audit and raise the trust line for autonomous AI agents, approval gates, rollbacks, and tool walls |
 | [`business-plan-pdf`](#business-plan-pdf) | Generate a professional, navy-branded business plan PDF from any Markdown file |
+| [`delegate-to-agy`](#delegate-to-agy) | Delegate web research, Herdr server orchestration, and refactoring to Antigravity CLI |
 | [`enterprise-agenticops-differentiation`](#enterprise-agenticops-differentiation) | Position AI, automation, and network ops experience as credible enterprise AgenticOps capability |
 | [`gopass-vault`](#gopass-vault) | Manage secrets, GPG keys, and API tokens in gopass secret vault |
 | [`herdr`](#herdr) | Master guide and procedure for using Herdr to orchestrate Linux servers, platforms, and processes |
@@ -42,6 +43,12 @@ Audit and raise the trust line for autonomous AI agents. Use when hardening agen
 Converts a Markdown business plan into a clean, professional A4 PDF.  
 Features a navy-branded cover page, auto-generated table of contents, document control block, revision history, styled tables, code blocks, blockquote callouts, and status badges.  
 **Trigger:** *"convert business plan to PDF", "export strategy document", "create investor-ready document"*
+
+---
+
+### `delegate-to-agy`
+Delegate complex web research, multi-server infrastructure management via Herdr, or deep codebase refactoring tasks to Antigravity CLI (AGY) using `--dangerously-skip-permissions`.  
+**Trigger:** *"delegate to AGY", "offload web research to AGY", "run AGY task", "use Antigravity CLI"*
 
 ---
 
@@ -164,6 +171,8 @@ agnet-skill-repo/
 ├── business-plan-pdf/
 │   ├── SKILL.md
 │   └── generate_pdf.py
+├── delegate-to-agy/
+│   └── SKILL.md
 ├── enterprise-agenticops-differentiation/
 │   ├── SKILL.md
 │   └── references/
@@ -241,6 +250,20 @@ agnet-skill-repo/
         ├── extract.py
         └── fetch.sh
 ```
+
+---
+
+## ℹ️ How Skills Work
+
+Skills are loaded by the **pi coding agent** at runtime.  
+When a user's request matches a skill's trigger phrases, the agent reads the `SKILL.md` file for that skill and follows its instructions — including running any supporting scripts in the skill's directory.
+
+To add a new skill: create a new directory, add a `SKILL.md` with a `name` and `description` in the YAML frontmatter, and include any supporting files.
+
+---
+
+*Last updated: September 2026*
+
 
 ---
 
