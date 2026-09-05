@@ -9,12 +9,9 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 
 | Skill | Description |
 |---|---|
-| [`agent-trust-hardening`](#agent-trust-hardening) | Audit and raise the trust line for autonomous AI agents, approval gates, and tool walls |
-| [`architecture-diagram`](#architecture-diagram) | Generate dark-themed SVG technical architecture and cloud diagrams as HTML |
 | [`business-plan-pdf`](#business-plan-pdf) | Generate a professional, navy-branded business plan PDF from any Markdown file |
 | [`enterprise-agenticops-differentiation`](#enterprise-agenticops-differentiation) | Position AI, automation, and network ops experience as credible enterprise AgenticOps capability |
 | [`herdr`](#herdr) | Master guide and procedure for using Herdr to orchestrate Linux servers, platforms, and processes |
-| [`hermes-advanced-ops`](#hermes-advanced-ops) | Operations guide for Hermes agent execution, token auditing, and plugin hook patterns |
 | [`human-authenticity-pass`](#human-authenticity-pass) | Run a final authenticity pass on job application documents to remove AI tells and strengthen human voice |
 | [`job-application-content-strategy`](#job-application-content-strategy) | Analyze job ads and build tailored content strategy for resumes, CVs, and cover letters |
 | [`linkedin-writer`](#linkedin-writer) | Write LinkedIn articles and posts in Malaka's authentic practitioner voice |
@@ -24,8 +21,6 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 | [`resume-pdf-packager`](#resume-pdf-packager) | Build and export resumes and cover letters as print-ready single-column PDFs |
 | [`resume-postbuild-validator`](#resume-postbuild-validator) | Post-build resume validation, ATS review, red-flag detection, and diagnosis |
 | [`rt-branded-pdf`](#rt-branded-pdf) | Generate a Rio Tinto corporate-branded PDF from any Markdown file |
-| [`subagent-driven-development`](#subagent-driven-development) | Execute implementation plans by dispatching fresh subagents per task with two-stage review |
-| [`systematic-debugging`](#systematic-debugging) | 4-phase root cause debugging framework (find root cause before attempting fixes) |
 | [`tech-doc-writer`](#tech-doc-writer) | Write enterprise-grade technical documents — As-Built, HLD, Security Guides, and more |
 | [`wa-selection-criteria`](#wa-selection-criteria) | Guidelines, templates, and checklists for writing WA Government selection criteria responses |
 | [`webresearch`](#webresearch) | Research any topic online — fetches web pages, docs, APIs, and news |
@@ -33,18 +28,6 @@ Each skill is a self-contained directory with a `SKILL.md` instruction file and 
 ---
 
 ## 📖 Skill Details
-
-### `agent-trust-hardening`
-Audit and raise the trust line for autonomous AI agents. Use when hardening agent execution, defining approval gates, restricting subagent tool scopes, verifying artifact outputs, and pruning startup context tax.  
-**Trigger:** *"harden agent trust", "make agent reliable", "approval gates", "audit agent skills"*
-
----
-
-### `architecture-diagram`
-Generates professional, dark-themed technical architecture diagrams as standalone HTML files with inline SVG graphics. No external rendering tools or API keys required.  
-**Trigger:** *"create architecture diagram", "generate infra diagram", "cloud architecture SVG"*
-
----
 
 ### `business-plan-pdf`
 Converts a Markdown business plan into a clean, professional A4 PDF.  
@@ -62,12 +45,6 @@ Position AI, automation, and network operations experience as credible enterpris
 ### `herdr`
 Master guide and procedure for using Herdr (terminal workspace manager) to orchestrate local and remote Linux servers, platforms, processes, background agents, and multi-pane deployments.  
 **Trigger:** *"use Herdr", "manage remote servers", "setup Herdr workspace", "tail logs across servers"*
-
----
-
-### `hermes-advanced-ops`
-Advanced operational guidelines for monitoring, auditing, and configuring Hermes AI Agent platforms. Covers token accounting formulas, cron job spend attribution, dynamic model routing hooks, and gateway access policies.  
-**Trigger:** *"hermes advanced ops", "audit token spend", "hermes plugin hook", "gateway pairing"*
 
 ---
 
@@ -135,18 +112,6 @@ Matches the RT document template: white cover with the RioTinto SVG logo, black 
 
 ---
 
-### `subagent-driven-development`
-Execute implementation plans by dispatching fresh subagents per task with systematic two-stage review (spec compliance then code quality).  
-**Trigger:** *"subagent driven development", "execute plan with subagents", "two-stage code review"*
-
----
-
-### `systematic-debugging`
-4-phase root cause debugging framework: understand bugs thoroughly before attempting fixes. Guarantees finding root cause instead of masking symptoms.  
-**Trigger:** *"systematic debugging", "root cause analysis", "debug issue", "troubleshoot failure"*
-
----
-
 ### `tech-doc-writer`
 Produces structured, professional enterprise technical documents for network and OT platforms.  
 Document types supported: **As-Built**, **HLD**, **Reference Doc**, **Security Guide**, **Troubleshooting Guide**.  
@@ -173,10 +138,6 @@ Supports an optional HTTP proxy via the `RESEARCH_PROXY` environment variable.
 ```
 agnet-skill-repo/
 ├── README.md
-├── agent-trust-hardening/
-│   └── SKILL.md
-├── architecture-diagram/
-│   └── SKILL.md
 ├── business-plan-pdf/
 │   ├── SKILL.md
 │   └── generate_pdf.py
@@ -189,8 +150,6 @@ agnet-skill-repo/
 │   └── references/
 │       ├── agent-coordination.md
 │       └── server-management-cheatsheet.md
-├── hermes-advanced-ops/
-│   └── SKILL.md
 ├── human-authenticity-pass/
 │   ├── SKILL.md
 │   └── references/
@@ -231,10 +190,6 @@ agnet-skill-repo/
 │   ├── SKILL.md
 │   ├── generate_pdf.py
 │   └── logo.svg
-├── subagent-driven-development/
-│   └── SKILL.md
-├── systematic-debugging/
-│   └── SKILL.md
 ├── tech-doc-writer/
 │   ├── SKILL.md
 │   └── refs/
@@ -255,7 +210,6 @@ agnet-skill-repo/
         └── fetch.sh
 ```
 
-
 ---
 
 ## ℹ️ How Skills Work
@@ -268,5 +222,6 @@ To add a new skill: create a new directory, add a `SKILL.md` with a `name` and `
 ---
 
 *Last updated: September 2026*
+
 
 
